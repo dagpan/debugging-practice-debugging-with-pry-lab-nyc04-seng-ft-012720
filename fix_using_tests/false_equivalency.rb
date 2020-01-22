@@ -1,9 +1,8 @@
 
 
-def get_user_input
-  gets.chomp.to_i
-  binding.pry
-end
+#def get_user_input
+#  gets.chomp.to_i
+#end
 
 def prompt_user
   puts "What would you like to do?"
@@ -14,12 +13,13 @@ end
 def selection(num)
   if num = 1
      "YUM YUM MUNCH MUNCH MUNCH"
-  elsif num = 2
+  end
+  if num = 2
      "HAM HAM HAM IN MY TUMMY"
   end
 end
 
 def runner
   prompt_user
-  selection(get_user_input)
+  selection(gets.chomp.to_i)
 end
