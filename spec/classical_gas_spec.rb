@@ -1,4 +1,5 @@
 require_relative '../fix_using_tests/classical_gas'
+require 'pry'
 
 describe "classical_gas" do
   let(:dinobones) {GasStation.new("Dino Bones Gas and Grill", 60)}
