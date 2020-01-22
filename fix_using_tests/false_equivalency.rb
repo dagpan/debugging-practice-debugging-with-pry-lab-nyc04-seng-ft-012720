@@ -12,7 +12,7 @@ end
 
 def selection(num)
   array1 = ["YUM YUM MUNCH MUNCH MUNCH", "HAM HAM HAM IN MY TUMMY"]
-  array[num - 1]
+  array1[num - 1]
 #  if num == 1
 #     "YUM YUM MUNCH MUNCH MUNCH"
 #  end
