@@ -12,7 +12,9 @@ def crew
 end
 
 def greet_crew(crew)
-  crew.each {|crew_member| "Hello #{crew_member}."}
+  crew.each_with_index do |crew_member, index|
+     crew[index] = "Hello #{crew_member}."
+  end
 end
 pp state_log(generate_star_date)
 pp greet_crew(crew)
