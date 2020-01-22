@@ -2,6 +2,7 @@
 
 def get_user_input
   gets.chomp.to_i
+  binding.pry
 end
 
 def prompt_user
