@@ -14,7 +14,8 @@ end
 def greet_crew(crew)
   crew.each {|crew_member| "Hello #{crew_member}."}
 end
-
+pp state_log(generate_star_date)
+pp greet_crew(crew)
 def engage
   date = generate_star_date
   state_log(date)
